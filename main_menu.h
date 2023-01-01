@@ -22,7 +22,8 @@ void printMainMenu(){
 // handles the input for the main menu -- i.e user presses either 1,2,3, or 4 then handle
 // what happens next.
 void handleMainMenuInput(){
-    
+    short int input = 0;
+
 }
 
 
