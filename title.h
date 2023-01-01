@@ -10,7 +10,9 @@
 #ifndef _TITLE_H_
 
 #define _TITLE_H_
-
+void printTitle(){
+    printf_s("*****************Welcome to Console Bank App******************\n\n");
+}
 
 
 
