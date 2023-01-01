@@ -25,6 +25,7 @@ void handleMainMenuInput(){
     short int input = 0;
 
     printf_s("Input: ");
+    scanf_s("%d",&input);
 
 }
 
