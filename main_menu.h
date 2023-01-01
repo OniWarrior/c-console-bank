@@ -26,13 +26,20 @@ void handleMainMenuInput(){
 
     printf_s("Input: ");
     scanf_s("%d",&input);
-
+    
+    handleMainMenuSwitch(input);
 }
 
 // helper function for handleMainMenuInput
 void handleMainMenuSwitch(int input){
+    // send user to create,view,delete,exit after evaluation
     switch(input){
-        
+        case 1: createAccount(); break;
+        case 2: viewAccount();   break;
+        case 3: deleteAccount(); break;
+        case 4: sayGoodbye();    break;
+        default: printf_s("/nPlease make a valid selection!");
+                 printMainMenu();        
     }
 }
 
