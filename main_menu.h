@@ -16,13 +16,15 @@ void printMainMenu(){
    printf_s("1. create account\n");
    printf_s("2. view account\n");
    printf_s("3. delete account\n");
-   printf_s("4. exit bank app\n");
+   printf_s("4. exit bank app\n\n");
 }
 
 // handles the input for the main menu -- i.e user presses either 1,2,3, or 4 then handle
 // what happens next.
 void handleMainMenuInput(){
     short int input = 0;
+
+    printf_s("Input: ");
 
 }
 
