@@ -5,3 +5,10 @@
  * description : entry point for the bank app
   
 */
+
+#include "title.h"
+
+int main(){
+
+    return 0;
+}
