@@ -29,5 +29,10 @@ void handleMainMenuInput(){
 
 }
 
+// helper function for handleMainMenuInput
+void handleMainMenuSwitch(int input){
+    
+}
+
 
 #endif
