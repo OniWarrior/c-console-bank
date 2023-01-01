@@ -5,3 +5,8 @@
  * description : entry point for the bank app
   
 */
+
+int main(){
+
+    return 0;
+}
