@@ -5,11 +5,15 @@
  * desc  : header for main menu function that prints main menu on screen
 */
 
-#include "title.h"
+#include "stdio.h"
 
 #ifndef _MAIN_MENU_
 #define _MAIN_MENU_
 
+// Print title
+void printTitle(){
+    printf_s("*****************Welcome to Console Bank App******************\n\n");
+}
 
 // Print the main menu on screen.
 void printMainMenu(){
