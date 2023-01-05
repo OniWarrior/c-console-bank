@@ -6,6 +6,10 @@
 */
 
 #include "stdio.h"
+#include "create_account.h"
+#include "view_account.h"
+#include "delete_account.h"
+#include "say_goodbye.h"
 
 #ifndef _MAIN_MENU_
 #define _MAIN_MENU_
